@@ -3,14 +3,15 @@
 main {
   margin: auto;
   width: 6.5in;
-  height: 11in;
+  height: 9.5in;
   border: 4px solid black;
   box-sizing: border-box;
+  font-family: "Noticia Text", serif;
 }
 
 /*main children*/
 .heading {
-  height: 2.7in;
+  height: 2.2in;
   width: auto;
   border: 2px solid blue;
 }
@@ -23,7 +24,34 @@ main {
 
 .right,
 .left {
-  height: 8.17in;
+  height: 7.2in;
   border: 2px solid red;
   width: 9in;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+}
+
+/* defines some cool text stuff */
+h1 {
+  blah blah blah
+}
+
+h2 {}
+
+h3 {
+  font-size: 65px;
+  border: 1px solid green;
+  position: relative;
+  margin-left: 20px;
+}
+
+h3:before {
+  content: "$";
+  font-size: 40px;
+  border: 1px solid blue;
+  position: absolute;
 }
