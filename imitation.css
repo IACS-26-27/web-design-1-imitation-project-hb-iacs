@@ -33,6 +33,7 @@ main {
 
 .product {
   display: flex;
+  border: 1px solid green;
 }
 
 /* defines some cool text stuff */
@@ -44,14 +45,29 @@ h2 {}
 
 h3 {
   font-size: 65px;
-  border: 1px solid green;
   position: relative;
-  margin-left: 20px;
+  margin-left: 25px;
+  border: 1px solid red;
 }
 
 h3:before {
   content: "$";
   font-size: 40px;
-  border: 1px solid blue;
   position: absolute;
+  left: -22px;
+  top: 12px;
+}
+
+.listing {
+  border: 1px solid blue;
+}
+
+h4 {
+  font-size: 75%;
+  border: 1px solid red;
+}
+
+h5 {
+  font-size: 50%;
+  border: 1px solid green;
 }
