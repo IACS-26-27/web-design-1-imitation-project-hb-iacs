@@ -1,1 +1,73 @@
 /* CSS for your imitation here */
+
+main {
+  margin: auto;
+  width: 6.5in;
+  height: 9.5in;
+  border: 4px solid black;
+  box-sizing: border-box;
+  font-family: "Noticia Text", serif;
+}
+
+/*main children*/
+.heading {
+  height: 2.2in;
+  width: auto;
+  border: 2px solid blue;
+}
+
+.page {
+  display: flex;
+  width: auto;
+  border: 2px solid green;
+}
+
+.right,
+.left {
+  height: 7.2in;
+  border: 2px solid red;
+  width: 9in;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  border: 1px solid green;
+}
+
+/* defines some cool text stuff */
+h1 {
+  blah blah blah
+}
+
+h2 {}
+
+h3 {
+  font-size: 65px;
+  position: relative;
+  margin-left: 25px;
+  border: 1px solid red;
+}
+
+h3:before {
+  content: "$";
+  font-size: 40px;
+  position: absolute;
+  left: -22px;
+  top: 12px;
+}
+
+.listing {
+  border: 1px solid blue;
+}
+
+h4 {
+  font-size: 75%;
+  border: 1px solid red;
+}
+
+h5 {
+  font-size: 50%;
+  border: 1px solid green;
+}
