@@ -17,10 +17,16 @@ main {
 
 /*main children*/
 .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 2.2in;
   width: auto;
   border: 2px solid blue;
 }
+
+
 
 .page {
   display: flex;
@@ -46,6 +52,7 @@ main {
   height: 60px;
   display: flex;
   align-items: center;
+  margin-block: 5px;
 }
 
 .line-break {
@@ -70,6 +77,33 @@ main {
   top: 12px;
 }
 
+.free {
+  font-size: 65px;
+  top: -5px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.cost-12 {
+  font-size: 65px;
+  top: -5px;
+  margin-left: 63px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.reg {
+  font-size: 50%;
+  position: absolute;
+  top: 3px;
+}
+
+h2 .reg {
+  font-size: 40%;
+  position: absolute;
+  top: 149px;
+}
+
 .big-listing-text {
   font-size: 75%;
   margin: 0px;
@@ -80,6 +114,16 @@ main {
   margin: 0px;
 }
 
+p {
+  position: relative;
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 230%
+}
+
 h2 {
   margin: 0px;
   font-size: 170%;
@@ -88,4 +132,13 @@ h2 {
 .yap {
   color: rgb(86, 86, 86);
   font-size: 7px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex .big-listing-text {
+  margin-right: 9px;
 }
