@@ -42,10 +42,11 @@ main {
   padding: 15px;
   box-sizing: border-box;
   padding-left: 30px;
+  position: relative;
 }
 
 .left-bottom {
-  margin-top: 375px;
+  margin-top: 360px;
 }
 
 .product {
@@ -121,7 +122,25 @@ p {
 h1 {
   margin: 0px;
   margin-bottom: 20px;
-  font-size: 230%
+  font-size: 230%;
+  border: 1px solid var(--red);
+  width: 430px;
+  text-align: center;
+  height: 58px;
+  border-radius: 10px;
+  corner-shape: scoop;
+  position: relative;
+}
+
+h1:after {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  border: 1px solid var(--red);
+  width: 436px;
+  height: 64px;
+  corner-shape: scoop;
 }
 
 h2 {
@@ -141,4 +160,18 @@ h2 {
 
 .flex .big-listing-text {
   margin-right: 9px;
+}
+
+.left-top img {
+  max-width: 110%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+
+.right-bottom img {
+  max-width: 103%;
+  position: absolute;
+  bottom: 3px;
+  left: -15px;
 }
