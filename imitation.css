@@ -123,13 +123,14 @@ h1 {
   margin: 0px;
   margin-bottom: 20px;
   font-size: 230%;
-  border: 1px solid var(--red);
+  border: 1px solid rgb(255, 147, 147);
   width: 430px;
   text-align: center;
   height: 58px;
   border-radius: 10px;
   corner-shape: scoop;
   position: relative;
+  z-index: 1;
 }
 
 h1:after {
@@ -137,10 +138,13 @@ h1:after {
   position: absolute;
   left: -4px;
   top: -4px;
-  border: 1px solid var(--red);
+  border: 1px solid rgb(250, 86, 86);
   width: 436px;
   height: 64px;
   corner-shape: scoop;
+  border-radius: 10px;
+  background-color: rgb(255, 240, 240);
+  z-index: -1;
 }
 
 h2 {
