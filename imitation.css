@@ -1,1 +1,181 @@
 /* CSS for your imitation here */
+
+main {
+  margin: auto;
+  width: 6.5in;
+  height: 9.5in;
+  border: 4px solid black;
+  box-sizing: border-box;
+  font-family: "Noticia Text", serif;
+  color: var(--red);
+  background-color: rgb(252, 252, 252);
+}
+
+:root {
+  --red: rgb(146, 0, 0);
+}
+
+/*main children*/
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2.2in;
+  width: auto;
+  border: 2px solid blue;
+}
+
+
+
+.page {
+  display: flex;
+  width: auto;
+  border: 2px solid green;
+}
+
+.right,
+.left {
+  height: 7.2in;
+  border: 2px solid red;
+  width: 9in;
+  padding: 15px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  position: relative;
+}
+
+.left-bottom {
+  margin-top: 360px;
+}
+
+.product {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-block: 5px;
+}
+
+.line-break {
+  border-bottom: 1px solid var(--red);
+  margin-block: 12px;
+}
+
+.cost {
+  font-size: 65px;
+  top: -5px;
+  position: relative;
+  margin-left: 25px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.cost:before {
+  content: "$";
+  font-size: 35px;
+  position: absolute;
+  left: -22px;
+  top: 12px;
+}
+
+.free {
+  font-size: 65px;
+  top: -5px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.cost-12 {
+  font-size: 65px;
+  top: -5px;
+  margin-left: 63px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.reg {
+  font-size: 50%;
+  position: absolute;
+  top: 3px;
+}
+
+h2 .reg {
+  font-size: 40%;
+  position: absolute;
+  top: 149px;
+}
+
+.big-listing-text {
+  font-size: 75%;
+  margin: 0px;
+}
+
+.small-listing-text {
+  font-size: 50%;
+  margin: 0px;
+}
+
+p {
+  position: relative;
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 230%;
+  border: 1px solid rgb(255, 147, 147);
+  width: 430px;
+  text-align: center;
+  height: 58px;
+  border-radius: 10px;
+  corner-shape: scoop;
+  position: relative;
+  z-index: 1;
+}
+
+h1:after {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  border: 1px solid rgb(250, 86, 86);
+  width: 436px;
+  height: 64px;
+  corner-shape: scoop;
+  border-radius: 10px;
+  background-color: rgb(255, 240, 240);
+  z-index: -1;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 170%;
+}
+
+.yap {
+  color: rgb(86, 86, 86);
+  font-size: 7px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex .big-listing-text {
+  margin-right: 9px;
+}
+
+.left-top img {
+  max-width: 110%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+
+.right-bottom img {
+  max-width: 103%;
+  position: absolute;
+  bottom: 3px;
+  left: -15px;
+}
